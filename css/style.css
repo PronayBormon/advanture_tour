@@ -1,0 +1,490 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header section start here  */
+header{
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+header::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007a;
+    z-index: -1;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url() !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-light .navbar-toggler {
+    border-color: #fff !important;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    color: transparent;
+}
+.navbar-nav {
+    text-align: right;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+ }
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: #47b5ff !important;
+}
+ .nav_button{
+    margin: 0px;
+    margin-top: 2px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    background: #47B5FF;
+    margin-left: 10px;
+}
+.nav_button:hover{
+    transition: .4s all;
+    background: #9e1437 !important;
+    color: #fff !important;
+}
+.head_content{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+min-height: 80vh;
+}
+.background_content{
+
+text-align: center;
+
+position: relative;
+} 
+.background_content h4{
+
+font-family: 'Montserrat', sans-serif;
+
+color: #fff;
+
+font-size: 24px;
+
+font-weight: 600;
+
+margin-bottom: 20px;
+}
+.background_content span{
+
+display: block;
+
+height: 2px;
+
+width: 0%;
+
+background: #47B5FF;
+
+position: absolute;
+
+left: 39%;
+}
+.head_content:hover .background_content span{
+    width: 25%;
+    transition: .4s all ease-in-out;
+}
+.background_content h2{
+
+font-family: 'Montserrat', sans-serif;
+
+color: #fff;
+
+font-size: 64px;
+
+margin-top: 30px;
+}
+.background_content button{
+    
+border: none;
+    
+background: #47B5FF;
+    
+color: #fff;
+    
+padding: 15px 30px;
+    
+text-transform: capitalize;
+    
+border-radius: 25px;
+    
+font-size: 14px;
+    
+font-weight: 400;
+    
+margin-top: 50px;
+}
+.background_content button:hover{
+    background: #1363DF;
+    transition: .4s all;
+    color: #fff;
+}
+/* header section end here  */
+
+/* events section start here  */
+.upcoming_events{
+
+}
+.upcoming_events_top{
+
+background: #f5f5f5;
+
+position: relative;
+
+z-index: 0;
+}
+.upcoming_events_top h3{
+
+font-family: 'Noto Sans', sans-serif;
+
+font-size: 24px;
+
+color: #534e4a;
+
+padding-top: 55px;
+}
+.upcoming_events_top h4{
+
+font-family: 'Noto Sans', sans-serif;
+
+font-size: 16px;
+
+color: #534e4a;
+
+padding-bottom: 55px;
+}
+.upcoming_events_top img{
+    
+position: absolute;
+    
+left: 10%;
+    
+top: 0px;
+    
+z-index: -1;
+}
+.events_title {
+
+text-align: center;
+
+position: relative;
+}
+.events_title h1{
+
+font-size: 34px;
+
+font-family: 'Montserrat',sans-serif;
+
+text-transform: uppercase;
+
+font-weight: 500;
+}
+.events_title p{
+
+}
+.events_title span{
+
+position: absolute;
+
+display: block;
+
+height: 2px;
+
+background: #47B5FF;
+
+width: 0%;
+
+left: 45%;
+
+margin-top: 15px;
+
+transition: .4s all;
+}
+.upcoming_events:hover .events_title span{
+    width: 10%;
+
+}
+.event_content{
+
+text-align: center;
+
+padding: 20px;
+}
+.event_content img{
+
+box-shadow: 7px 6px 1px #cecccc;
+
+border-radius: 10px;
+}
+.event_content h2{
+
+font-size: 18px;
+
+font-family: 'Montserrat',sans-serif;
+
+font-weight: 600;
+
+margin-top: 20px;
+}
+.event_content p{
+
+font-family: 'Noto Sans',sans-serif;
+
+padding: 0px 15px;
+
+margin-top: 20px;
+}
+.event_content button{
+
+border: none;
+
+background: #47B5FF;
+
+color: #fff !important;
+
+text-transform: capitalize;
+
+font-size: 18px;
+
+padding: 15px 30px;
+
+border-radius: 35px;
+
+margin-top: 16px;
+}
+.event_content button:hover{
+    transition: .4s all;
+    background: #1363DF;
+}
+.event_content button i{
+    
+margin-left: 10px;
+}
+/* events section end here  */
+
+/* explore the world contnet start here  */
+.explore_world {
+    background-image: url(../images/background1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+.explore_world::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0000007a;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.explore_content {}
+.explore_content h2{font-size: 34px;font-family: 'Montserrat',sans-serif;text-transform: uppercase;font-weight: 600;color: #fff;margin-top: 30px;}
+.explore_content span{
+
+display: block;
+
+height: 2px;
+
+width: 0%;
+
+background: #47B5FF;
+
+margin-top: 15px;
+}
+.explore_content p{
+
+color: #fff;
+
+font-family: 'Noto Sans', sans-serif;
+
+margin-top: 20px;
+
+margin-bottom: 25px;
+}
+.explore_content button{
+
+border: none;
+
+background: #47B5FF;
+
+color: #fff !important;
+
+text-transform: uppercase;
+
+padding: 15px 30px;
+
+border-radius: 35px;
+
+margin-bottom: 50px;
+}
+.explore_content button:hover {
+    background: #1363DF;
+    transition: .4s all;
+}
+.explore_content:hover span{
+    transition: .4s all ease-in-out;
+    width: 20%;
+}
+/* explore the world content end here  */
+
+/* UPCOMING TOURS & DESTINATION section start here */
+.tour_destination{
+
+}
+.tour_destination_content {
+
+}
+.tour_destination_content h1{
+
+font-size: 34px;
+
+font-family: 'Montserrat',sans-serif;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+margin-bottom: 20px;
+}
+.tour_destination_content span{
+
+display: block;
+
+height: 2px;
+
+width: 0%;
+transition: .4s all ease-in-out;
+
+background: #47B5FF;
+
+margin-bottom: 20px;
+}
+.tour_destination_content:hover span{
+    width: 20%;
+}
+.tour_destination_content p{
+
+font-family: 'Noto Sans',sans-serif;
+
+font-weight: 400;
+
+font-size: 16px;
+
+color: #999999;
+
+margin-bottom: 30px;
+}
+.tour_destination_content button{
+
+border: none;
+
+background: #47B5FF;
+
+color: #fff !important;
+
+text-transform: uppercase;
+
+padding: 15px 30px;
+
+border-radius: 26px;
+
+font-weight: 500;
+}
+.tour_destination_content button:hover{
+    background: #1363DF;
+    transition: .4s all;
+}
+.tour_destination_img {
+
+}
+.img_part_one{
+
+}
+.img_part_one img{
+
+border-radius: 15px;
+
+margin-top: 12px;
+
+margin-bottom: 12px;
+}
+.img_part-two{
+
+}
+.img_part-two img{
+
+margin-top: 12px;
+
+border-radius: 15px;
+
+margin-bottom: 12px;
+}
+/* UPCOMING TOURS & DESTINATION section end here */
+
+footer{
+
+background: #1b1b1b;
+
+padding-top: 30px;
+
+padding-bottom: 5px;
+}
+footer h2{
+
+font-family: 'Noto Sans',sans-serif;
+
+font-size: 14px;
+
+font-weight: 700;
+
+color: #fff;
+}
+footer h3{
+    
+font-family: 'Noto Sans',sans-serif;
+    
+font-weight: 600;
+    
+font-size: 12px;
+    
+color: #fff;
+    
+margin-top: 10px;
+}

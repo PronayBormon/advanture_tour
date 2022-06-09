@@ -1,0 +1,30 @@
+@media(max-width : 767px){
+
+    .background_content h2 {
+        font-size: 40px;
+    }
+}
+@media(max-width : 575px){
+
+    .tour_destination_content button {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width : 425px){
+    .background_content h4 { font-size: 20px;
+    }
+    .background_content h2 {
+        font-size: 32px;
+    }
+    .upcoming_events_top h3 {
+        font-size: 18px;
+    }
+}
+@media(max-width : 375px){
+    .tour_destination_content h1 {
+        font-size: 22px;
+    }
+    footer h2 {
+        font-size: 14px;
+    }
+}
